@@ -177,6 +177,13 @@ have been rewritten, the rest of the system remains unchanged.*
 
 [<img src="https://raw.github.com/ics-software-engineering/play-example-form/master/doc/play-example-form-screencast.png" width="400">](http://www.youtube.com/watch?v=247H9NVpMME)
 
+
+Entity Relationship Diagram
+---------------------------
+![screenshot](https://raw.github.com/jamestvu/play-example-form/master/doc/erd.png)
+Students are allowed to have no majors or no hobbies selected.
+Students must select a GPA, hence it is required. 
+Although students may select a level of "other", that is still considered a valid level so the relationship between a student and level is one to one. 
     
 Acknowledgements
 ----------------
